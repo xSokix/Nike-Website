@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Website</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="body_items">
+        <div class="item_1">
+            <img src="images/6.png" alt="">
+        </div>
+        <div class="item_2">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="just_do_it">
+            <p>Just
+                Do
+                It
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <nav>
+            <div class="left_nav">
+                <div class="nav_logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="nav_menu">
+                    <ul>
+                        <li>
+                            <a href="#" class="link">HOME</a>
+                            <div class="link_border"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">KIDS</a>
+                            <div class="link_border"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">MEN</a>
+                            <div class="link_border"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">WOMEN</a>
+                            <div class="link_border"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right_nav">
+                <div class="nav_cart_box">
+                    <i class="bx bx-cart"></i>
+                </div>
+                <div class="dropdown">
+                    <div class="menu_bars" onclick="myMenuFunction()">
+                        <div class="menu_bars_btn">
+                            <img src="images/bar.png" class="bar_1">
+                            <img src="images/bar.png" class="bar_2">
+                        </div>
+                        <div class="nav_dropdown_menu" id="navDropdownMenu">
+                            <ul>
+                                <li>
+                                    <a href="#" class="link">HOME</a>
+                                    <div class="link_border"></div>
+                                </li>
+                                <li>
+                                    <a href="#" class="link">KIDS</a>
+                                    <div class="link_border"></div>
+                                </li>
+                                <li>
+                                    <a href="#" class="link">MEN</a>
+                                    <div class="link_border"></div>
+                                </li>
+                                <li>
+                                    <a href="#" class="link">WOMEN</a>
+                                    <div class="link_border"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="left_col">
+                <div class="shoe_title">
+                    <p>Nike Air Jordan</p>
+                </div>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="shoe_description">
+                    <p>Nike Shoes E-commerce Web Template Shop - UpLabs, Nike introduces
+                        new consumer website - oregonlive.com</p>
+                </div>
+                <div class="cart">
+                    <button class="cart_btn">Add To Cart</button>
+                    <p class="price">$197.99</p>
+                </div>
+                <div class="shop_box">
+                    <div class="shop_item_container">
+                        <div class="shoe_img_box">
+                            <img src="images/2.png" class="shoe_img">
+                        </div>
+                        <div class="shoe_name_price">
+                            <h3>Nike Air Max</h3>
+                            <p>$169.99</p>
+                        </div>
+                        <div class="add_to_shop">
+                            <i class="bx bx-cart"></i>
+                        </div>
+                    </div>
+                    <div class="shop_item_container">
+                        <div class="shoe_img_box">
+                            <img src="images/3.png" class="shoe_img">
+                        </div>
+                        <div class="shoe_name_price">
+                            <h3>Nike Air Force</h3>
+                            <p>$172.99</p>
+                        </div>
+                        <div class="add_to_shop">
+                            <i class="bx bx-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_col">
+                <img src="images/1.png" class="featured_img" alt="">
+                <div class="shopping_cart_btn">
+                    <i class="bx bx-cart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function myMenuFunction() {
+            var i = document.getElementById("navDropdownMenu");
+            if (i.className === "nav_dropdown_menu") {
+                i.className += " responsive";
+            } else {
+                i.className = "nav_dropdown_menu";
+            }
+        }
+
+    </script>
+
+    <section class="collection">
+        <div class="container box">
+            <div class="collection__wrap">
+                <div class="collection__big-card">
+                    <img src="./images/bigcard.png" alt="">
+                    <div class="collection__big-card_desc">
+                        <h2 class="collection__big-card_desc-h">
+                            Shoe Review: Nike React Infinity Run
+                        </h2>
+                        <p class="collection__big-card_desc-p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                            aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
+                            dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+                            nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in
+                            ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa
+                        </p>
+                    </div>
+                </div>
+                <div class="collection__card">
+                    <div class="collection__card-item">
+                        <div class="collection__card-item_img">
+                            <img src="./images/card1.png" alt="">
+                        </div>
+                        <h4 class="collection__card-item-h">Nike Air Max 270</h4>
+                        <p class="collection__card-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                            aliquam, purus sit amet luctus venenatis</p>
+                    </div>
+                    <div class="collection__card-item">
+                        <div class="collection__card-item_img">
+                            <img src="./images/card2.png" alt="">
+                        </div>
+                        <h4 class="collection__card-item-h">Nike Tanjun</h4>
+                        <p class="collection__card-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                            aliquam, purus sit amet luctus venenatis</p>
+                    </div>
+                    <div class="collection__card-item">
+                        <div class="collection__card-item_img">
+                            <img src="./images/card3.png" alt="">
+                        </div>
+                        <h4 class="collection__card-item-h">Green Air Force</h4>
+                        <p class="collection__card-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                            aliquam, purus sit amet luctus venenatis</p>
+                    </div>
+                    <div class="collection__card-item">
+                        <div class="collection__card-item_img">
+                            <img src="./images/card4.png" alt="">
+                        </div>
+                        <h4 class="collection__card-item-h">Nike moon shoes</h4>
+                        <p class="collection__card-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                            aliquam, purus sit amet luctus venenatis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product -->
+
+    <div class="products" id="Products">
+        <h1>Products</h1>
+
+        <div class="box">
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (1).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$100.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (2).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$200.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (3).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$175.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (4).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$120.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (6).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$150.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (5).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$220.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (6).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$110.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (7).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$150.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-share"></i>
+                </div>
+
+                <div class="image">
+                    <img src="./images/air-max1 (8).png">
+                </div>
+
+                <div class="products_text">
+                    <h2>NIKE</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <h3>$150.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- secrion111 -->
+
+    <section class="section111">
+        <div class="container box">
+            <div class="proga">
+                <h1>Our Latest Product</h1>
+                <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
+            </div>
+
+            <div class="grid">
+                <div class="Nike">
+                    <div class="krug">
+                        <img src="./images/z1.png" alt="">
+                    </div>
+                    <h1>Aliquam lobortis</h1>
+                    <img class="img2" src="img/Group 27.svg" alt="">
+                    <h2>$75.00 – $85.00</h2>
+                    <button class="sss">Shpo now</button>
+                </div>
+                <div class="Nike">
+                    <div class="krug">
+                        <img src="./images/z2.png" alt="">
+                    </div>
+                    <h1>Aliquam lobortis</h1>
+                    <img class="img2" src="img/Group 27.svg" alt="">
+                    <h2>$75.00 – $85.00</h2>
+                    <button class="sss">Shpo now</button>
+                </div>
+                <div class="Nike">
+                    <div class="krug">
+                        <img src="./images/z3.png" alt="">
+                    </div>
+                    <h1>Aliquam lobortis</h1>
+                    <img class="img2" src="img/Group 27.svg" alt="">
+                    <h2>$75.00 – $85.00</h2>
+                    <button class="sss">Shpo now</button>
+                </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container box">
+            <div class="footer__wrap">
+                <form class="footer__form">
+                    <input type="text" class="footer__form-input" placeholder="Your name">
+                    <textarea class="footer__form-textarea" placeholder="Message"></textarea>
+                    <input type="submit" value="Submit" class="footer__form-submit">
+                </form>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#">Sneakers</a></li>
+                    <li class="footer__list-item"><a href="#">Gumshoes</a></li>
+                    <li class="footer__list-item"><a href="#">T-shirts</a></li>
+                    <li class="footer__list-item"><a href="#">Shorts</a></li>
+                    <li class="footer__list-item"><a href="#">Jeans</a></li>
+                    <li class="footer__list-item"><a href="#">Sweaters</a></li>
+                    <li class="footer__list-item"><a href="#">Sweatshirts</a></li>
+                </ul>
+                <ul class="footer__contacts">
+                    <li class="footer__contacts-item">
+                        <a href="#"><img src="./img/Icon01.svg" alt=""></a>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <a href="#"><img src="./img/Icon02.svg" alt=""></a>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <a href="#"><img src="./img/Icon04.svg" alt=""></a>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <a href="#"><img src="./img/Icon05.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function myMenuFunction() {
+            var i = document.getElementById("navDropdownMenu");
+
+            if (i.className === "nav_dropdown_menu") {
+                i.className += " responsive";
+            } else {
+                i.className = "nav_dropdown_menu";
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+@media (max-width: 1155px) {
+    .products .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .collection__wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .Nike h1 {
+        margin-left: -9px;
+    }
+
+    .collection__card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Nike h2 {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 755px) {
+    .products .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .footer__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 488px) {
+    .footer__contacts {
+        margin-left: 0px;
+    }
+
+    .footer__list {
+        margin-left: -80px;
+        margin-top: 30px;
+    }
+
+    .footer__wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+}
